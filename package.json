@@ -1,0 +1,9 @@
+{
+  "name": "npm10-ownership-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal lifecycle-script ownership probe",
+  "scripts": {
+    "postinstall": "node scripts/write-ngcc-lock.cjs"
+  }
+}
